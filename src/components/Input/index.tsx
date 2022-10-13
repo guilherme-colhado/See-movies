@@ -9,7 +9,7 @@ interface InputComponentProps extends InputHTMLAttributes<HTMLInputElement>{
 export const InputComponent = ({label, type, ...rest}: InputComponentProps) => {
     return <>
         <InputDiv>
-            <input type={type} placeholder=" " id={label} {...rest}/>
+            <input type={type} placeholder="" id={label} {...rest}/>
             <label htmlFor={label}>{label}</label>
         </InputDiv>
     </>

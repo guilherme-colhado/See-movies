@@ -4,7 +4,7 @@ export const InputDiv = styled.div`
     position: relative;
     width: 300px;
     height: 40px;
-    margin: 200px auto;
+    margin: 10px auto;
     background-color: var(--gray500);
     border-radius: 16px;
     

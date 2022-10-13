@@ -1,5 +1,5 @@
 import { createGlobalStyle } from "styled-components";
-import background from '../assets/backgroundMobile.png'
+import background from "../assets/backgroundMobile.png";
 
 export const GlobalStyle = createGlobalStyle`
     *{
@@ -9,7 +9,7 @@ export const GlobalStyle = createGlobalStyle`
     }
     body {
         background-image: url(${background});
-        min-height: 200vh;
+        min-height: 100vh;
         min-width: 100vw;
         background-attachment: fixed;
         background-size: 100% 100%;
