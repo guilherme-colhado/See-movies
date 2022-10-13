@@ -20,7 +20,7 @@ export const Info = styled.div`
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
     p {
         font-size: 2.5rem;
         font-weight: 700;
