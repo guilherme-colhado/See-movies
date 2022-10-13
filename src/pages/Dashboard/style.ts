@@ -25,6 +25,7 @@ export const DashboardContainer = styled.div`
     }
     > div {
       display: flex;
+      overflow: auto;
       gap: 2rem;
       padding: 12px;
     }
