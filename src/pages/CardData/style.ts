@@ -1,45 +1,41 @@
 import styled from "styled-components";
 
-export const LoginDiv = styled.div`
-    height: 100vh;
+export const CardData = styled.div`
+    padding-top: 70px;
     width: 100vw;
     display: flex;
     flex-direction: column;
-    align-items: center;
-
-    >header{
-        padding: 80px;
-    }
-`;
-
-export const FormDiv = styled.form`
-    display: flex;
-    flex-direction: column;
-    gap: 4.5rem;
-    >div {
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
-    }
-    >span{
-        display: flex;
-        font-size: 2.2rem;
-        font: bold;
-        gap: 3px;
-        >p{
-            color: #FAFF00;
-            text-shadow: 1px 1px #000;
-            &:hover{
-                cursor: pointer;
+    >header {
+        margin: 0 auto;
+        >figure {
+            width: 150px;
+            >img {
+                width: 100%;
             }
         }
     }
-`;
+`
+
+export const Info = styled.form`
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    p {
+        font-size: 2.5rem;
+        font-weight: 700;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        span {
+            color: var(--primary)
+        }
+    }
+`
 
 export const ButtonContainer = styled.div`
     display: flex;
     flex-direction: column;
     gap: 3px;
+    margin: 0 auto;
     >button{
         height: 40px;
         width: 300px;
