@@ -1,8 +1,10 @@
+import { useNavigate } from "react-router-dom";
 import Icon from "../../assets/seeMoviesIcon.png";
 import { LoginDiv } from "../Login/style";
 import { AssignatureContainer, Assignatures } from "./style";
 
 export const Assignature = () => {
+  const nav = useNavigate()
   return (
     <LoginDiv>
       <header>
@@ -26,7 +28,11 @@ export const Assignature = () => {
             <p>R$320,00</p>
           </div>
         </Assignatures>
-        <button type="submit">Continuar</button>
+        <button type="submit" onClick={(e)=>{
+          nav("/register/card-data")
+        }}>
+          Continuar
+        </button>
       </AssignatureContainer>
     </LoginDiv>
   );

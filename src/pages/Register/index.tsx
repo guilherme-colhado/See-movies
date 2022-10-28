@@ -1,8 +1,10 @@
 import { InputComponent } from "../../components/Input"
 import { ButtonContainer, Info, Register } from "./style"
 import icon from "../../assets/seeMoviesIcon.png";
+import { useNavigate } from "react-router-dom";
 
 export const RegisterPage = () => {
+    const nav = useNavigate()
     return <Register>
         <header>
             <figure>
@@ -18,7 +20,7 @@ export const RegisterPage = () => {
             <InputComponent type="password" label="Senha"/>
             <InputComponent type="password" label="Repetir senha"/>
             <ButtonContainer>
-                <button>Criar Conta</button>
+                <button onClick={() => nav("/register/assignature")}>Criar Conta</button>
             </ButtonContainer>
         </Info>
     </Register>

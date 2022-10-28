@@ -4,10 +4,11 @@ import { RiFileSearchFill } from "react-icons/ri";
 import { AiOutlineClose } from "react-icons/ai";
 import { FaUserCircle } from "react-icons/fa";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 export const Header = () => {
   const [isInput, setIsInput] = useState(false);
-
+  const nav = useNavigate()
   return (
     <HeaderDiv>
       <div>
@@ -24,7 +25,7 @@ export const Header = () => {
             <SearchInput />
           </SearchContainer>
           <span>
-            <FaUserCircle size={36} />
+            <FaUserCircle onClick={() => nav("/login")}size={36} />
           </span>
         </div>
       </div>
