@@ -1,8 +1,10 @@
 import { ButtonContainer, Info, CardData } from "./style"
 import icon from "../../assets/seeMoviesIcon.png";
 import { InputComponent } from "../../components/Input";
+import { useNavigate } from "react-router-dom";
 
 export const CardDataPage = () => {
+    const nav = useNavigate()
     return <CardData>
             <header>
                 <figure>
@@ -19,7 +21,7 @@ export const CardDataPage = () => {
                 <InputComponent type="text" label="Data de validade"/>
                 <InputComponent type="text" label="Código de segurança (CVV)"/>
                 <ButtonContainer>
-                    <button>Confirmar pagamento</button>
+                    <button onClick={() => nav("/")}>Confirmar pagamento</button>
                 </ButtonContainer>
             </Info>
     </CardData>
