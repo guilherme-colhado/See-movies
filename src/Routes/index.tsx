@@ -1,6 +1,6 @@
 import { Route, Routes } from 'react-router-dom'
-import { Header } from '../components/Header/Header'
 import { Assignature } from '../pages/Assignature/Assignature'
+import { CardDataPage } from '../pages/CardData'
 import { Dashboard } from '../pages/Dashboard/Dashboard'
 import { Login } from '../pages/Login/Login'
 import { Profile } from '../pages/Profile/Profile'
@@ -8,10 +8,11 @@ import { RegisterPage } from '../pages/Register'
 
 export const RoutesComponent = () => {
     return <Routes>
-        <Route path='/' element={<Profile/>}/>
+        <Route path='/' element={<Dashboard/>}/>
         <Route path='/register' element={<RegisterPage/>}/>
-        <Route path='' element={''}/>
-        <Route path='' element={''}/>
         <Route path='/profile' element={<Profile/>}/>
+        <Route path='/login' element={<Login/>}/>
+        <Route path='/register/card-data' element={<CardDataPage/>}/>
+        <Route path='/register/assignature' element={<Assignature/>}/>
     </Routes>
 }

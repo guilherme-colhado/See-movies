@@ -30,4 +30,22 @@ export const DashboardContainer = styled.div`
       padding: 12px;
     }
   }
+  > span {
+    position: relative;
+    top: 80px;
+    display: flex;
+    justify-content: center;
+    > button {
+      width: 123px;
+      height: 40px;
+      color: white;
+      background-color: #670000;
+      border-radius: 20px;
+      transition: all 0.3s;
+      &:hover {
+        cursor: pointer;
+        background-color: #390000;
+      }
+    }
+  }
 `;

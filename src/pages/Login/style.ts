@@ -1,22 +1,26 @@
 import styled from "styled-components";
 
 export const LoginDiv = styled.div`
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-  >header{
-      padding: 80px;
-  }
+    >header{
+        padding: 80px;
+    }
 `;
 
 export const FormDiv = styled.form`
     display: flex;
     flex-direction: column;
     gap: 4.5rem;
-
+    >div {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
     >span{
         display: flex;
         font-size: 2.2rem;

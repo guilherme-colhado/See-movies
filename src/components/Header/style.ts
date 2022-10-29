@@ -1,4 +1,4 @@
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 import seeMoviesIcon from "../../assets/backgroundMobile.png";
 
 type typeSearchContainer = {

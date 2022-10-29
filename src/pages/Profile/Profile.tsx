@@ -3,10 +3,13 @@ import { DashboardContainer } from "../Dashboard/style";
 import { DashboardDiv } from "../Dashboard/style";
 import { ProfileMain } from "./style";
 import userIcon from "../../assets/userIcon.svg";
-import {TbEdit} from "react-icons/tb"
+import { TbEdit } from "react-icons/tb";
 import { OptionsContainer } from "../../components/ProfileOptionsContainer/OptionsContainer";
+import { useNavigate } from "react-router-dom";
 
 export const Profile = () => {
+  const nav = useNavigate();
+
   return (
     <DashboardDiv>
       <Header />
@@ -15,12 +18,15 @@ export const Profile = () => {
           <span>
             <img src={userIcon} alt="profilePicture" />
             <span>
-                <TbEdit size={24}/>      
+              <TbEdit size={24} />
             </span>
           </span>
           <h2>INDIVIDUO INDIGENTE</h2>
         </ProfileMain>
-        <OptionsContainer/>
+        <OptionsContainer />
+        <span>
+          <button onClick={() => nav("/login")}>Sair</button>
+        </span>
       </DashboardContainer>
     </DashboardDiv>
   );

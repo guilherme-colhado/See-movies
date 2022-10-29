@@ -5,9 +5,11 @@ import { AiOutlineClose } from "react-icons/ai";
 import { FaUserCircle } from "react-icons/fa";
 import { useState } from "react";
 import { useLocation } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 export const Header = () => {
   const [isInput, setIsInput] = useState(false);
+  const nav = useNavigate();
   const location = useLocation();
 
   return (
@@ -29,8 +31,8 @@ export const Header = () => {
                 <SearchInput />
               </SearchContainer>
               <span>
-                <FaUserCircle size={36} />
-              </span>
+            <FaUserCircle onClick={() => nav("/login")}size={36} />
+          </span>
             </>
           )}
         </div>

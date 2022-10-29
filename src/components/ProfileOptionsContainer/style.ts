@@ -9,7 +9,9 @@ export const OptionsContainerDiv = styled.div`
 export const OptionDiv = styled.div`
     width: 300px;
     height: 40px;
+    padding: 0;
     margin: auto;
+    padding: 200px;
     background-color: var(--gray500);
     border-radius: 16px;
     display: flex;

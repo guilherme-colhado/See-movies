@@ -3,8 +3,8 @@ import styled from "styled-components";
 export const InputDiv = styled.div`
     position: relative;
     width: 300px;
-    height: 40px;
-    margin: 10px auto;
+    height: 50px;
+    margin: 0 auto;
     background-color: var(--gray500);
     border-radius: 16px;
     
@@ -29,6 +29,9 @@ export const InputDiv = styled.div`
         left: 8px;
         transform: translateY(-50%);
         z-index: 2;
+        background-color: var(--gray500);
+        padding: 5px;
+        border-radius: 10px;
         color: var(--gray600);
         transition: all .5s;
     }
