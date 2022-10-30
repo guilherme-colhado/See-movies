@@ -13,6 +13,7 @@ export const DashboardContainer = styled.div`
   -webkit-box-shadow: 3px -22px 33px 28px rgba(0, 0, 0, 1);
   -moz-box-shadow: 3px -22px 33px 28px rgba(0, 0, 0, 1);
   box-shadow: 3px -22px 33px 28px rgba(0, 0, 0, 1);
+  height: 100%;
 
   > div {
     display: flex;
@@ -25,9 +26,26 @@ export const DashboardContainer = styled.div`
     }
     > div {
       display: flex;
-      overflow: auto;
       gap: 2rem;
       padding: 12px;
+    }
+  }
+  > span {
+    position: relative;
+    top: 80px;
+    display: flex;
+    justify-content: center;
+    > button {
+      width: 123px;
+      height: 40px;
+      color: white;
+      background-color: #670000;
+      border-radius: 20px;
+      transition: all 0.3s;
+      &:hover {
+        cursor: pointer;
+        background-color: #390000;
+      }
     }
   }
 `;
