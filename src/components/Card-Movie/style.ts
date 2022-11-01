@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const CardMovie = styled.div`
+export const CardMovie = styled.a`
     position: relative;
     width: 110px;
     height: 160px;
