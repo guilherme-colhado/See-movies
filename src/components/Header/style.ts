@@ -6,8 +6,7 @@ type typeSearchContainer = {
 };
 
 export const HeaderDiv = styled.div`
-  height: 380px;
-  background-image: url(${seeMoviesIcon});
+  height: 280px;
   background-attachment: fixed;
   background-size: 100% 100%;
   background-repeat: no-repeat;

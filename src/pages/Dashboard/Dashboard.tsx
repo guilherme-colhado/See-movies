@@ -11,25 +11,25 @@ export const Dashboard = () => {
         <div>
           <h2>TOP 10</h2>
           <div>
-            <CardMovieComponent img={Avengers} title="Avengers: ENDGAME"/>
-            <CardMovieComponent img={Avengers} title="Avengers: ENDGAME"/>
-            <CardMovieComponent img={Avengers} title="Avengers: ENDGAME"/>
+            <CardMovieComponent img={Avengers} id='1' title="Avengers: ENDGAME"/>
+            <CardMovieComponent img={Avengers} id='1' title="Avengers: ENDGAME"/>
+            <CardMovieComponent img={Avengers} id='1' title="Avengers: ENDGAME"/>
           </div>
         </div>
         <div>
           <h2>EM ALTA</h2>
           <div>
-            <CardMovieComponent img={Avengers} title="Avengers: ENDGAME"/>
-            <CardMovieComponent img={Avengers} title="Avengers: ENDGAME"/>
-            <CardMovieComponent img={Avengers} title="Avengers: ENDGAME"/>
+            <CardMovieComponent img={Avengers} id='1' title="Avengers: ENDGAME"/>
+            <CardMovieComponent img={Avengers} id='1' title="Avengers: ENDGAME"/>
+            <CardMovieComponent img={Avengers} id='1' title="Avengers: ENDGAME"/>
           </div>
         </div>
         <div>
           <h2>ASSISTIR NOVAMENTE</h2>
           <div>
-            <CardMovieComponent img={Avengers} title="Avengers: ENDGAME"/>
-            <CardMovieComponent img={Avengers} title="Avengers: ENDGAME"/>
-            <CardMovieComponent img={Avengers} title="Avengers: ENDGAME"/>
+            <CardMovieComponent img={Avengers} id='1' title="Avengers: ENDGAME"/>
+            <CardMovieComponent img={Avengers} id='1' title="Avengers: ENDGAME"/>
+            <CardMovieComponent img={Avengers} id='1' title="Avengers: ENDGAME"/>
           </div>
         </div>
       </DashboardContainer>

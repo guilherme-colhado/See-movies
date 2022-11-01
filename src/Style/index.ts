@@ -10,11 +10,20 @@ export const GlobalStyle = createGlobalStyle`
     body {
         background-image: url(${background});
         min-height: 100vh;
-        min-width: 100vw;
+        width: 100%;
+        background-size: cover;
         background-attachment: fixed;
-        background-size: 100% 100%;
         background-repeat: no-repeat;
         background-position: center;
+        ::-webkit-scrollbar {
+            width: 10px;
+            background: black;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: var(--primary); 
+            border-radius: 10px;
+        }
+
     }
     :root{
         font-size: 8px;

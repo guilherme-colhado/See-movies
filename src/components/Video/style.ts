@@ -12,4 +12,14 @@ export const VideoModal = styled.div`
     justify-content: center;
     backdrop-filter: blur(10px);
     z-index: 1000;
+    button {
+        background: transparent;
+        border: none;
+        color: white;
+        font-size: 3rem;
+        position: fixed;
+        cursor: pointer;
+        top: 20px;
+        right: 40px;
+    }
 `
