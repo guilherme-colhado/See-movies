@@ -17,9 +17,6 @@ export const Profile = () => {
         <ProfileMain>
           <span>
             <img src={userIcon} alt="profilePicture" />
-            <span>
-              <TbEdit size={24} />
-            </span>
           </span>
           <h2>INDIVIDUO INDIGENTE</h2>
         </ProfileMain>

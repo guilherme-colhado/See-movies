@@ -32,5 +32,6 @@ export const GlobalStyle = createGlobalStyle`
         --gray500: #dedede;
         --gray600: #8e8e8e;
         --gray800: #323232;
+        --gray900: #232323;
     }
 `;

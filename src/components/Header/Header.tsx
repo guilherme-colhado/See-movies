@@ -31,8 +31,8 @@ export const Header = () => {
                 <SearchInput />
               </SearchContainer>
               <span>
-            <FaUserCircle onClick={() => nav("/login")}size={36} />
-          </span>
+                <FaUserCircle onClick={() => nav("/login")}size={36} />
+              </span>
             </>
           )}
         </div>
