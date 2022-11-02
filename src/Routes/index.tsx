@@ -1,4 +1,5 @@
 import { Route, Routes } from 'react-router-dom'
+import { AllMoviesPage } from '../pages/AllMovies'
 import { Assignature } from '../pages/Assignature/Assignature'
 import { CardDataPage } from '../pages/CardData'
 import { Dashboard } from '../pages/Dashboard/Dashboard'
@@ -16,5 +17,6 @@ export const RoutesComponent = () => {
         <Route path='/register/card-data' element={<CardDataPage/>}/>
         <Route path='/register/assignature' element={<Assignature/>}/>
         <Route path='/movies/:id' element={<MoviePage/>}/>
+        <Route path='/all-movies' element={<AllMoviesPage/>}/>
     </Routes>
 }
