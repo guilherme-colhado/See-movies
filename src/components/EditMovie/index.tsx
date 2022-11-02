@@ -25,7 +25,7 @@ export const EditModalComponent = ({title, idVideo, urlImgCartaz, urlImgHd,setMo
     return <Modal id="modal" onClick={(e) => close((e.target as event).id)}>
         <FormEditMovie>
             <div>
-                <h2>Criar Filme</h2>
+                <h2>Editar Filme</h2>
                 <button id="modal"><AiOutlineClose/></button>
             </div>
             <InputComponent type="text" placeholder={title}/>
