@@ -15,7 +15,7 @@ export const Header = () => {
   return (
     <HeaderDiv>
       <div>
-        <img src={Icon} />
+        <img src={Icon} onClick={() => nav("/")}/>
         <div>
           {/* Verifica se é a rota do perfil, se for não irá renderizar os icones (igual ao figma) */}
           {location.pathname === "/profile" ? null : (
@@ -31,7 +31,7 @@ export const Header = () => {
                 <SearchInput />
               </SearchContainer>
               <span>
-                <FaUserCircle onClick={() => nav("/login")}size={36} />
+                <FaUserCircle onClick={() => nav("/profile")}size={36} />
               </span>
             </>
           )}

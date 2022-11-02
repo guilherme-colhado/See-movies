@@ -4,7 +4,6 @@ import Avengers from "../../assets/avengers.jpeg";
 import { useState } from "react";
 import { BsPlayCircle } from 'react-icons/bs'
 import { VideoModalComponent } from "../../components/Video";
-import videoAvengers from "../../assets/avengersVideo.mp4"
 
 export const MoviePage = () => {
     const [video, setVideo] = useState(false)
@@ -30,7 +29,7 @@ export const MoviePage = () => {
             </div>
         </MovieMain>
         {
-            video && <VideoModalComponent setVideo={setVideo} video={videoAvengers}/>
+            video && <VideoModalComponent setVideo={setVideo} videoId={"VBv8ILgZMbU"}/>
         }
     </Movie>
 }

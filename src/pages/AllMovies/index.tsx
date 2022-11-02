@@ -9,34 +9,34 @@ export const AllMoviesPage = () => {
         <Header />
         <MovieContainer>
             <div>
-                <CardMovieComponent imgCartaz={AvengersCartaz} id='1' idVideo='' title="Avengers: ENDGAME" imgHd={AvengersHd} isAdm={true}/>
-                <CardMovieComponent imgCartaz={AvengersCartaz} id='1' idVideo='' title="Avengers: ENDGAME" imgHd={AvengersHd} isAdm={true}/>
-                <CardMovieComponent imgCartaz={AvengersCartaz} id='1' idVideo='' title="Avengers: ENDGAME" imgHd={AvengersHd} isAdm={true}/>
-                <CardMovieComponent imgCartaz={AvengersCartaz} id='1' idVideo='' title="Avengers: ENDGAME" imgHd={AvengersHd} isAdm={true}/>
-                <CardMovieComponent imgCartaz={AvengersCartaz} id='1' idVideo='' title="Avengers: ENDGAME" imgHd={AvengersHd} isAdm={true}/>
-                <CardMovieComponent imgCartaz={AvengersCartaz} id='1' idVideo='' title="Avengers: ENDGAME" imgHd={AvengersHd} isAdm={true}/>
-                <CardMovieComponent imgCartaz={AvengersCartaz} id='1' idVideo='' title="Avengers: ENDGAME" imgHd={AvengersHd} isAdm={true}/>
-                <CardMovieComponent imgCartaz={AvengersCartaz} id='1' idVideo='' title="Avengers: ENDGAME" imgHd={AvengersHd} isAdm={true}/>
-                <CardMovieComponent imgCartaz={AvengersCartaz} id='1' idVideo='' title="Avengers: ENDGAME" imgHd={AvengersHd} isAdm={true}/>
-                <CardMovieComponent imgCartaz={AvengersCartaz} id='1' idVideo='' title="Avengers: ENDGAME" imgHd={AvengersHd} isAdm={true}/>
-                <CardMovieComponent imgCartaz={AvengersCartaz} id='1' idVideo='' title="Avengers: ENDGAME" imgHd={AvengersHd} isAdm={true}/>
-                <CardMovieComponent imgCartaz={AvengersCartaz} id='1' idVideo='' title="Avengers: ENDGAME" imgHd={AvengersHd} isAdm={true}/>
-                <CardMovieComponent imgCartaz={AvengersCartaz} id='1' idVideo='' title="Avengers: ENDGAME" imgHd={AvengersHd} isAdm={true}/>
-                <CardMovieComponent imgCartaz={AvengersCartaz} id='1' idVideo='' title="Avengers: ENDGAME" imgHd={AvengersHd} isAdm={true}/>
-                <CardMovieComponent imgCartaz={AvengersCartaz} id='1' idVideo='' title="Avengers: ENDGAME" imgHd={AvengersHd} isAdm={true}/>
-                <CardMovieComponent imgCartaz={AvengersCartaz} id='1' idVideo='' title="Avengers: ENDGAME" imgHd={AvengersHd} isAdm={true}/>
-                <CardMovieComponent imgCartaz={AvengersCartaz} id='1' idVideo='' title="Avengers: ENDGAME" imgHd={AvengersHd} isAdm={true}/>
-                <CardMovieComponent imgCartaz={AvengersCartaz} id='1' idVideo='' title="Avengers: ENDGAME" imgHd={AvengersHd} isAdm={true}/>
-                <CardMovieComponent imgCartaz={AvengersCartaz} id='1' idVideo='' title="Avengers: ENDGAME" imgHd={AvengersHd} isAdm={true}/>
-                <CardMovieComponent imgCartaz={AvengersCartaz} id='1' idVideo='' title="Avengers: ENDGAME" imgHd={AvengersHd} isAdm={true}/>
-                <CardMovieComponent imgCartaz={AvengersCartaz} id='1' idVideo='' title="Avengers: ENDGAME" imgHd={AvengersHd} isAdm={true}/>
-                <CardMovieComponent imgCartaz={AvengersCartaz} id='1' idVideo='' title="Avengers: ENDGAME" imgHd={AvengersHd} isAdm={true}/>
-                <CardMovieComponent imgCartaz={AvengersCartaz} id='1' idVideo='' title="Avengers: ENDGAME" imgHd={AvengersHd} isAdm={true}/>
-                <CardMovieComponent imgCartaz={AvengersCartaz} id='1' idVideo='' title="Avengers: ENDGAME" imgHd={AvengersHd} isAdm={true}/>
-                <CardMovieComponent imgCartaz={AvengersCartaz} id='1' idVideo='' title="Avengers: ENDGAME" imgHd={AvengersHd} isAdm={true}/>
-                <CardMovieComponent imgCartaz={AvengersCartaz} id='1' idVideo='' title="Avengers: ENDGAME" imgHd={AvengersHd} isAdm={true}/>
-                <CardMovieComponent imgCartaz={AvengersCartaz} id='1' idVideo='' title="Avengers: ENDGAME" imgHd={AvengersHd} isAdm={true}/>
-                <CardMovieComponent imgCartaz={AvengersCartaz} id='1' idVideo='' title="Avengers: ENDGAME" imgHd={AvengersHd} isAdm={true}/>
+                <CardMovieComponent imgCartaz={AvengersCartaz} id='1' idVideo='VBv8ILgZMbU' title="Avengers: ENDGAME" imgHd={AvengersHd} isAdm={true}/>
+                <CardMovieComponent imgCartaz={AvengersCartaz} id='1' idVideo='VBv8ILgZMbU' title="Avengers: ENDGAME" imgHd={AvengersHd} isAdm={true}/>
+                <CardMovieComponent imgCartaz={AvengersCartaz} id='1' idVideo='VBv8ILgZMbU' title="Avengers: ENDGAME" imgHd={AvengersHd} isAdm={true}/>
+                <CardMovieComponent imgCartaz={AvengersCartaz} id='1' idVideo='VBv8ILgZMbU' title="Avengers: ENDGAME" imgHd={AvengersHd} isAdm={true}/>
+                <CardMovieComponent imgCartaz={AvengersCartaz} id='1' idVideo='VBv8ILgZMbU' title="Avengers: ENDGAME" imgHd={AvengersHd} isAdm={true}/>
+                <CardMovieComponent imgCartaz={AvengersCartaz} id='1' idVideo='VBv8ILgZMbU' title="Avengers: ENDGAME" imgHd={AvengersHd} isAdm={true}/>
+                <CardMovieComponent imgCartaz={AvengersCartaz} id='1' idVideo='VBv8ILgZMbU' title="Avengers: ENDGAME" imgHd={AvengersHd} isAdm={true}/>
+                <CardMovieComponent imgCartaz={AvengersCartaz} id='1' idVideo='VBv8ILgZMbU' title="Avengers: ENDGAME" imgHd={AvengersHd} isAdm={true}/>
+                <CardMovieComponent imgCartaz={AvengersCartaz} id='1' idVideo='VBv8ILgZMbU' title="Avengers: ENDGAME" imgHd={AvengersHd} isAdm={true}/>
+                <CardMovieComponent imgCartaz={AvengersCartaz} id='1' idVideo='VBv8ILgZMbU' title="Avengers: ENDGAME" imgHd={AvengersHd} isAdm={true}/>
+                <CardMovieComponent imgCartaz={AvengersCartaz} id='1' idVideo='VBv8ILgZMbU' title="Avengers: ENDGAME" imgHd={AvengersHd} isAdm={true}/>
+                <CardMovieComponent imgCartaz={AvengersCartaz} id='1' idVideo='VBv8ILgZMbU' title="Avengers: ENDGAME" imgHd={AvengersHd} isAdm={true}/>
+                <CardMovieComponent imgCartaz={AvengersCartaz} id='1' idVideo='VBv8ILgZMbU' title="Avengers: ENDGAME" imgHd={AvengersHd} isAdm={true}/>
+                <CardMovieComponent imgCartaz={AvengersCartaz} id='1' idVideo='VBv8ILgZMbU' title="Avengers: ENDGAME" imgHd={AvengersHd} isAdm={true}/>
+                <CardMovieComponent imgCartaz={AvengersCartaz} id='1' idVideo='VBv8ILgZMbU' title="Avengers: ENDGAME" imgHd={AvengersHd} isAdm={true}/>
+                <CardMovieComponent imgCartaz={AvengersCartaz} id='1' idVideo='VBv8ILgZMbU' title="Avengers: ENDGAME" imgHd={AvengersHd} isAdm={true}/>
+                <CardMovieComponent imgCartaz={AvengersCartaz} id='1' idVideo='VBv8ILgZMbU' title="Avengers: ENDGAME" imgHd={AvengersHd} isAdm={true}/>
+                <CardMovieComponent imgCartaz={AvengersCartaz} id='1' idVideo='VBv8ILgZMbU' title="Avengers: ENDGAME" imgHd={AvengersHd} isAdm={true}/>
+                <CardMovieComponent imgCartaz={AvengersCartaz} id='1' idVideo='VBv8ILgZMbU' title="Avengers: ENDGAME" imgHd={AvengersHd} isAdm={true}/>
+                <CardMovieComponent imgCartaz={AvengersCartaz} id='1' idVideo='VBv8ILgZMbU' title="Avengers: ENDGAME" imgHd={AvengersHd} isAdm={true}/>
+                <CardMovieComponent imgCartaz={AvengersCartaz} id='1' idVideo='VBv8ILgZMbU' title="Avengers: ENDGAME" imgHd={AvengersHd} isAdm={true}/>
+                <CardMovieComponent imgCartaz={AvengersCartaz} id='1' idVideo='VBv8ILgZMbU' title="Avengers: ENDGAME" imgHd={AvengersHd} isAdm={true}/>
+                <CardMovieComponent imgCartaz={AvengersCartaz} id='1' idVideo='VBv8ILgZMbU' title="Avengers: ENDGAME" imgHd={AvengersHd} isAdm={true}/>
+                <CardMovieComponent imgCartaz={AvengersCartaz} id='1' idVideo='VBv8ILgZMbU' title="Avengers: ENDGAME" imgHd={AvengersHd} isAdm={true}/>
+                <CardMovieComponent imgCartaz={AvengersCartaz} id='1' idVideo='VBv8ILgZMbU' title="Avengers: ENDGAME" imgHd={AvengersHd} isAdm={true}/>
+                <CardMovieComponent imgCartaz={AvengersCartaz} id='1' idVideo='VBv8ILgZMbU' title="Avengers: ENDGAME" imgHd={AvengersHd} isAdm={true}/>
+                <CardMovieComponent imgCartaz={AvengersCartaz} id='1' idVideo='VBv8ILgZMbU' title="Avengers: ENDGAME" imgHd={AvengersHd} isAdm={true}/>
+                <CardMovieComponent imgCartaz={AvengersCartaz} id='1' idVideo='VBv8ILgZMbU' title="Avengers: ENDGAME" imgHd={AvengersHd} isAdm={true}/>
             </div>
         </MovieContainer>
     </MovieDiv>

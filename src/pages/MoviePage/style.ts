@@ -41,6 +41,11 @@ export const MovieMain = styled.main`
                 cursor: pointer;
                 border: none;
                 border-radius: 10px;
+                transition: all 0.3s;
+                :hover{
+                    background-color:var(--gray800);
+                    color: var(--primary);
+                }
             }
         }
         > p {
