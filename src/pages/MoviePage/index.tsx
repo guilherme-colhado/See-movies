@@ -3,7 +3,6 @@ import { Movie, MovieMain } from "./style";
 import Avengers from "../../assets/avengers.jpeg";
 import { useState } from "react";
 import { BsPlayCircle } from 'react-icons/bs'
-import { MdOutlineAttachMoney } from 'react-icons/md'
 import { VideoModalComponent } from "../../components/Video";
 import videoAvengers from "../../assets/avengersVideo.mp4"
 
@@ -21,7 +20,6 @@ export const MoviePage = () => {
                 <h3>2019 - AÇÃO/FICÇÃO</h3>
                 <div>
                     <button onClick={() => setVideo(!video)}><BsPlayCircle/> Assistir</button>
-                    <button><MdOutlineAttachMoney/> Alugar</button>
                 </div>
             <p>
                 Após Thanos eliminar metade das criaturas vivas, 
